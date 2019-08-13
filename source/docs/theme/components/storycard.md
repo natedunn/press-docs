@@ -1,21 +1,21 @@
 ---
-title: Theme › Components › Logo | Press Theme
-description: Documentation about the Logo component
+title: Theme › Components › Storycard | Press Theme
+description: Documentation about the Storycard component
 extends: _layouts.documentation
 section: content
 ---
 
-# Theme › Component › Logo {#logo}
+# Theme › Component › Storycard {#storycard}
 
 ## Options {#options}
 
 - **options** | _array_
   - **display_comp** | _boolean_
-  - **display_text** | _boolean_
+  - **display_meta** | _boolean_
+- **data** | _array_
+  - **slug** | _string_ (required)
 - **classes** | _array_
   - **comp** | _string_
-  - **path_mark** | _string_ : 'text-{color}' (required)
-  - **path_text** | _string_ : 'text-{color}' (required)
 
 ---
 

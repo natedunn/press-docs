@@ -8,19 +8,18 @@
 
             <h2 id="intro-powered-by-jigsaw" class="font-light mt-4">{{ $page->siteDescription }}</h2>
 
-            <p class="text-lg">Give your documentation a boost with Jigsaw. <br class="hidden sm:block">Generate elegant, static docs quickly and easily.</p>
+            {{-- <p class="text-lg">Give your documentation a boost with Jigsaw. <br class="hidden sm:block">Generate elegant, static docs quickly and easily.</p> --}}
 
             <div class="flex my-10">
                 <a href="/docs/theme/about" title="{{ $page->siteName }} getting started" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Press Theme</a>
-                <a href="/docs/css/about" title="{{ $page->siteName }} getting started" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Press CSS</a>
-                <a href="https://jigsaw.tighten.co" title="Jigsaw by Tighten" class="bg-grey-light hover:bg-grey-dark text-blue-darkest font-normal hover:text-white rounded py-2 px-6">About Jigsaw</a>
+                <a href="/docs/css/about" title="{{ $page->siteName }} getting started" class="bg-grey-light hover:bg-grey-dark text-blue-darkest font-normal hover:text-white rounded py-2 px-6">Press CSS</a>
             </div>
         </div>
 
         <img src="/assets/img/logo-large.svg" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 lg:mb-0 ">
     </div>
 
-    <hr class="block my-8 border lg:hidden">
+    {{-- <hr class="block my-8 border lg:hidden">
 
     <div class="md:flex -mx-2 -mx-4">
         <div class="mb-8 mx-3 px-2 md:w-1/3">
@@ -46,6 +45,6 @@
 
             <p>Jigsaw comes pre-configured with Laravel Mix, a simple and powerful build tool. Use the latest frontend tech with just a few lines of code.</p>
         </div>
-    </div>
+    </div> --}}
 </section>
 @endsection

@@ -5,9 +5,9 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Theme › Getting Started
+# Theme › Getting Started {#getting-started}
 
-### Requirements
+### Requirements {#requirements}
 
 - WordPress >= 4.7
 - PHP >= 7.1.3
@@ -16,6 +16,6 @@ section: content
 - Yarn
 - [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/#pricing-table)
 
-### Local Installation
+### Local Installation {#local-installation}
 
 [Need to write]

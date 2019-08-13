@@ -14,13 +14,15 @@ return [
           'Alert' => 'docs/theme/components/alert'
         ]
       ],
-      'Templates' => 'docs/theme/templates'
+      'Templates' => 'docs/theme/templates',
+      'Directives' => 'docs/theme/directives',
+      'Deployment' => 'docs/theme/deployment'
     ]
   ],
   'Press CSS' => [
-    'url' => 'docs/css-about',
+    'url' => 'docs/css/about',
     'children' => [
-      'About' => 'docs/theme-about'
+      'About' => 'docs/css/about'
     ]
   ]
 ];

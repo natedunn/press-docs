@@ -5,20 +5,20 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Theme › About
+# Theme › About {#about}
 
 Press Theme is built off Sage 9, which is a Wordpress boilerplate theme using Laravel (a PHP framework) as its backbone.
 
 [Need to write]
 
-## Supported Plugins
+## Supported Plugins {#supported-plugins}
 
 - Soil
 - Yoast
 - Gravity Forms
 - ACF Pro
 
-## Browser Support
+## Browser Support {#browser-support}
 
 **Tested:**
 

@@ -5,9 +5,9 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Theme › Components › About
+# Theme › Components › About {#about}
 
-## Component Aliases
+## Component Aliases {#aliases}
 
 _Note: This section requires a basic knowledge of [Blade templating](https://laravel.com/docs/5.8/blade), specifically focusing on components and aliases._
 
@@ -26,7 +26,7 @@ If you need to use a slot for whatever reason, use Laravel's built-in directive 
 
 ---
 
-## Component Structure
+## Component Structure {#structure}
 
 Every component will have a possible three top-tier options.
 
