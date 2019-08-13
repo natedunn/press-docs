@@ -1,10 +1,10 @@
 <?php
 
 return [
-  'baseUrl' => 'https://frontiersusa.github.io/press-docs/',
-  'production' => true,
+    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'production' => true,
 
-  // DocSearch credentials
-  'docsearchApiKey' => '',
-  'docsearchIndexName' => ''
+    // DocSearch credentials
+    'docsearchApiKey' => '',
+    'docsearchIndexName' => '',
 ];
