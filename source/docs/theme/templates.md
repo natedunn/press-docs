@@ -44,16 +44,16 @@ Change `/templates/boilerplate` to `/templates/{your-new-template}`
 This means changing the text after "Template Name:" at the top of each template file. So this:
 
 ```html
-Template Name: Boilerplate
+Template Name: [Boilerplate]
 ```
 
 ...becomes this:
 
 ```html
-Template Name: {Your New Template}
+Template Name: [{Your New Template Name}]
 ```
 
-## Accessing template variables {#access-variables }
+## Accessing template variables {#access-variables}
 
 There are a few template variables that you have access to when working inside a template file. These have limited uses but can be helpful in a pinch.
 

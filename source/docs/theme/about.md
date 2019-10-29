@@ -31,3 +31,9 @@ Press Theme is built off Sage 9, which is a Wordpress boilerplate theme using La
 
 - IE
 - Opera
+
+## Improvements over v4
+
+- Smaller assets and shorter load time.
+- Support for Gravity Forms is greatly improved across the board.
+- By using Sage 9, which uses part of Laravel as its core, there is now greater consistency in Frontiers products.
