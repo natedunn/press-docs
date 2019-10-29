@@ -6,18 +6,18 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="General information about the Wordpress theme">
 
-        <meta property="og:site_name" content="Docs Starter Template"/>
-        <meta property="og:title" content="Components | Press Theme | Docs Starter Template"/>
+        <meta property="og:site_name" content="Press Documentation"/>
+        <meta property="og:title" content="Components | Press Theme | Press Documentation"/>
         <meta property="og:description" content="General information about the Wordpress theme"/>
         <meta property="og:url" content="https://my-jigsaw-docs.com/docs/theme/components/about"/>
         <meta property="og:image" content="/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
-        <meta name="twitter:image:alt" content="Docs Starter Template">
+        <meta name="twitter:image:alt" content="Press Documentation">
         <meta name="twitter:card" content="summary_large_image">
 
         
-        <title>Docs Starter Template | Components | Press Theme</title>
+        <title>Press Documentation | Components | Press Theme</title>
 
         <link rel="home" href="https://my-jigsaw-docs.com">
         <link rel="icon" href="/favicon.ico">
@@ -34,10 +34,10 @@
         <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
             <div class="container flex items-center max-w-4xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="Docs Starter Template home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="Docs Starter Template logo" />
+                    <a href="/" title="Press Documentation home" class="inline-flex items-center">
+                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="Press Documentation logo" />
 
-                        <h1 class="text-lg md:text-2xl text-blue-darkest font-semibold hover:text-blue-dark my-0 pr-4">Docs Starter Template</h1>
+                        <h1 class="text-lg md:text-2xl text-blue-darkest font-semibold hover:text-blue-dark my-0 pr-4">Press Documentation</h1>
                     </a>
                 </div>
 
@@ -98,6 +98,15 @@
     </li>
             <li class="list-reset pl-4">
             
+        <a href="/docs/theme/campaigns"
+            class="lvl1   nav-menu__item hover:text-blue"
+        >
+            Campaigns
+        </a>
+    
+    </li>
+            <li class="list-reset pl-4">
+            
         <a href="/docs/theme/components/about"
             class="lvl1  active font-semibold text-blue nav-menu__item hover:text-blue"
         >
@@ -144,11 +153,29 @@
         </a>
     
     </li>
+            <li class="list-reset pl-4">
+            
+        <a href="/docs/theme/directives"
+            class="lvl1   nav-menu__item hover:text-blue"
+        >
+            Directives
+        </a>
+    
+    </li>
+            <li class="list-reset pl-4">
+            
+        <a href="/docs/theme/deployment"
+            class="lvl1   nav-menu__item hover:text-blue"
+        >
+            Deployment
+        </a>
+    
+    </li>
     </ul>
     </li>
             <li class="list-reset pl-4">
             
-        <a href="/docs/css-about"
+        <a href="/docs/css/about"
             class="lvl0   nav-menu__item hover:text-blue"
         >
             Press CSS
@@ -158,7 +185,7 @@
         <ul class="list-reset my-0">
             <li class="list-reset pl-4">
             
-        <a href="/docs/theme-about"
+        <a href="/docs/css/about"
             class="lvl1   nav-menu__item hover:text-blue"
         >
             About
@@ -171,8 +198,8 @@
         </nav>
 
         <div class="w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
-            <h1>Theme › Components › About</h1>
-<h2>Component Aliases</h2>
+            <h1 id="about">Theme › Components › About</h1>
+<h2 id="aliases">Component Aliases</h2>
 <p><em>Note: This section requires a basic knowledge of <a href="https://laravel.com/docs/5.8/blade">Blade templating</a>, specifically focusing on components and aliases.</em></p>
 <p>Each component inside <code>resources/views/components</code> will automatically have an <em>include alias</em> registered for it with an additional underscore (<code>_</code>) before the name. This extra underscore helps add the distinction that this &quot;directive&quot; is an automatically-registered alias for a component.</p>
 <p>For example: if there is a component inside this directory with the file name <code>modal.blade.php</code> then you may automatically use the custom alias/directive <code>@_modal</code> in Blade templates.</p>
@@ -184,7 +211,7 @@
 <li><a href="https://laravel-news.com/blade-component-include-aliases">How to Use Blade Component and Include Aliases</a></li>
 </ul>
 <hr />
-<h2>Component Structure</h2>
+<h2 id="structure">Component Structure</h2>
 <p>Every component will have a possible three top-tier options.</p>
 <ul>
 <li>'options'
@@ -237,12 +264,12 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2019.
+                    &copy; <a href="https://frontiersusa.org" title="Tighten website">FrontiersUSA</a> 2019.
                 </li>
 
                 <li>
                     Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                    and <a href="https://github.com/frontiersusa/press-css" title="Press CSS">Press CSS</a>.
                 </li>
             </ul>
         </footer>
